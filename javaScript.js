@@ -18,3 +18,12 @@ function PrevImage()
     if(slideIndex < 0){ slideIndex = slide.length-1};
     slide[slideIndex].style.display = "block";
 }
+
+function openMenu() {
+    document.getElementById("sideMenu").style.width = "40%";
+}
+
+
+function closeMenu() {
+    document.getElementById("sideMenu").style.width = "0";
+}
