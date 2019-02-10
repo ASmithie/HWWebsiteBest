@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="utf-8">
+        <meta name = "description" content= "HTML5, CSS3">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+        <title>Best Electronics</title>
+		<script src="javaScript.js"></script>
+    </head>
+    <body onload="NextImage()">
+		<center><img src = "AtariLogo.png" height="150px" width="150px"></center>
+        <h1>Best Electronics</h1>
+        <br>
+        <div class="navbar">
+  			<a class="active" href="index.html">Home</a>
+  			<a href="catalogue.html">Catalogue</a>
+  			<a href="contact.html">Contact Us</a>
+  			<a href="about.html">About</a>
+			<a href="cart.html">Cart</a>
+		</div> 
+        <br>
+        <h2>Specialising in replacement parts and accessories for Atari</h2>
+        <br>
+        <h2>Featured products</h2>
+        
+        <!-- Slideshow of products to go here -->
+        <div class="container">
+		
+			<div class = "slides">
+				<img src="Atari2600.jpg">
+				<div class = "caption">Atari 2600 console</div>
+			</div>
+			
+			<div class = "slides">
+				<img src="Atari5200.jpg">
+				<div class = "caption">Atari 5200 console</div>
+			</div>
+			
+			<div class = "slides">
+				<img src="cx40.jpg">
+				<div class = "caption">CX40 joystick</div>
+			</div>
+			
+			<div class = "slides">
+				<img src="switchbox.jpg">
+				<div class = "caption">TV switchbox</div>
+			</div>
+			
+			<div class = "slides">
+				<img src="lynx.jpg">
+				<div class = "caption">Atari Lynx handheld console</div>
+			</div>
+			
+			<div class = "slides">
+				<img src="1200XL.jpg">
+				<div class = "caption">1200XL keyboard</div>
+			</div>
+			
+			<br>
+			<button onclick="PrevImage();">&#10094;</button>
+			<button onclick="NextImage();">&#10095;</button>
+		</div>
+        <p><!-- description of featured product to go here --></p>
+		<br>
+        <div class ="About">
+            <p>Best Electronics was started 34 years ago, it is the worlds best supplier
+            of atari parts and accessories.</p>
+            <br>
+            
+        </div>
+    </body>
+
+</html>
