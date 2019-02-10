@@ -24,31 +24,105 @@ p {
     font-family: 'Karla', impact;
 }
 
-.navbar {
-  background-color: #333;
-  overflow: hidden;
-  text-align: center;
-  height: 50px;
+@media only screen and (max-width: 649px) {
+
+    .navbardefault {
+        display: none;
+    }
+
+    .btnsmallmenu {
+        display: inline;
+        background-color: #333;
+        text-decoration: none;
+        font-family: 'Karla', sans-serif;
+        font-size: 24px;
+        color: #f2f2f2;
+        padding: 14px 16px;
+    }
+
+    .sidemenu {
+        display: inline;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+
+    .sidemenu a {
+        padding: 12px;
+        text-decoration: none;
+        font-size: 24px;
+        font-family: 'Karla', sans-serif;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidemenu a:hover {
+        background-color: #ddd;
+        color: #000000;
+    }
+
+    .sidemenu .current {
+        background-color: #BC2D2F;
+        color: #ffffff;
+    }
+
+    .sidemenu .btnclose {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
 }
 
-.navbar a {
-  margin: auto;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 28px 16px;
-  text-decoration: none;
-  font-family: 'Karla', sans-serif;
-  font-size: 24px;
-}
 
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
+@media only screen and (min-width: 650px) {
 
-.navbar .current {
-  background-color: #BC2D2F;
-  color: white;
+    .sidemenu {
+        display: none;
+    }
+
+    .btnsmallmenu {
+        display: none;
+    }
+
+    .navbardefault {
+        background-color: #333;
+        overflow: hidden;
+        text-align: center;
+        height: 50px;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbardefault a {
+        margin: auto;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 28px 16px;
+        text-decoration: none;
+        font-family: 'Karla', sans-serif;
+        font-size: 24px;
+    }
+
+    .navbardefault a:hover {
+        background-color: #ddd;
+        color: #000000;
+    }
+
+    .navbardefault .current {
+        background-color: #BC2D2F;
+        color: #ffffff;
+    }
+
 }
 
 .About {
