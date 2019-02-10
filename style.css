@@ -150,19 +150,19 @@ p {
 	width:100%;
 }
 
-.prevButton .nextButton {
-  cursor: pointer;
-  position: relative;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
+.prevButton, .nextButton {
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  transition: 0.4s ease;
   user-select: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.prevButton:hover, .nextButton:hover {
+  background-color: rgba(255,0,0,0.8);
 }
 
 .caption {
