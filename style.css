@@ -31,7 +31,7 @@ p {
   width: 150px;
 }
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 1080px) {
 
     .navbardefault {
         display: none;
@@ -92,7 +92,7 @@ p {
 }
 
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 1081px) {
 
     .sidemenu {
         display: none;
