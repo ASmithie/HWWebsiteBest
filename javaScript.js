@@ -44,13 +44,13 @@ function toggleColorMode() {
 function SetDarkMode(){
     document.getElementById("body").className = "DarkMode";
     document.documentElement.style.setProperty('--TextColor', 'white');
-    document.documentElement.style.setProperty('--BackgroundColor', '#15202b');
+    document.documentElement.style.setProperty('--BackgroundImage', 'linear-gradient(black, #5D5D5D)');
     document.documentElement.style.setProperty('--NavbarColor', '#333');
 }
 
 function SetLightMode(){
     document.getElementById("body").className = "LightMode";
     document.documentElement.style.setProperty('--TextColor', 'black');
-    document.documentElement.style.setProperty('--BackgroundColor', '#ffc9ca');
+    document.documentElement.style.setProperty('--BackgroundImage', 'linear-gradient(#C60000, #FF5757)');
     document.documentElement.style.setProperty('--NavbarColor', '#333');
 }
