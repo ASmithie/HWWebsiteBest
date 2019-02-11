@@ -42,6 +42,7 @@ h4 {
 p {
     text-align:center;
     font-family: 'Karla', impact;
+    color: var(--TextColor);
 }
 
 .hourstable {
