@@ -222,7 +222,7 @@ p {
     margin-right: auto;
 }
 
-.product {
+.product p {
     max-width: 50%;
     margin: auto;
     text-align: center;
