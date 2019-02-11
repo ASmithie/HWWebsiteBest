@@ -10,7 +10,7 @@
 	<script src="javaScript.js"></script>
     </head>
 
-    <body id="body" class="NoMode" >
+    <body id="body" class="LightMode" >
 	<span class="btnsmallmenu" onclick="openMenu()">Menu</span>
   <img src = "AtariLogo.png" class="centre" alt="Atari Logo">
         <h1>Best Electronics</h1>
@@ -22,7 +22,7 @@
   			<a href="contact.html">Contact Us</a>
   			<a href="about.html">About</a>
 			<a href="cart.html">Cart</a>
-			<Button onclick="toggleColorMode()">Dark-Light</button>
+			<Button class="defaultColorMode" onclick="toggleColorMode()">Dark-Light</button>
 		</div>
 
 		<div id="sideMenu" class="sidemenu">
@@ -32,6 +32,7 @@
 			<a href="contact.html">Contact Us</a>
 			<a href="about.html">About</a>
 			<a href="cart.html">Cart</a>
+			<Button class="sideColorMode" onclick="toggleColorMode()">Dark-Light</button>
 		</div>
         <br>
 
