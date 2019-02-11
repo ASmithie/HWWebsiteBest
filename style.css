@@ -1,6 +1,6 @@
 :root{
 	--TextColor: white;
-	--BackgroundColor: black;
+	--BackgroundColor: #15202b;
 	--NavBarColor: #333;
 }
 
@@ -242,7 +242,7 @@ p {
 }
 
 .product button {
-    color: var(--TextColor);
+    color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;
@@ -253,6 +253,6 @@ p {
 }
 
 .product button:hover {
-    background-color: #ddd;
-    color: var(--TextColor);
+    background-color:white;
+    color: black;
 }

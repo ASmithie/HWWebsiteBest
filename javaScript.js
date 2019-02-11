@@ -1,7 +1,7 @@
 var slideIndex = 0;
 var slide = document.getElementsByClassName("slides");
 
-  
+
 
 function NextImage()
 {
@@ -34,17 +34,17 @@ function toggleColorMode() {
     if(document.getElementById("body").className == "LightMode"){
         SetDarkMode();
     }
-        
+
     else {
         SetLightMode();
     }
-    
+
 }
 
 function SetDarkMode(){
     document.getElementById("body").className = "DarkMode";
     document.documentElement.style.setProperty('--TextColor', 'white');
-    document.documentElement.style.setProperty('--BackgroundColor', 'black');
+    document.documentElement.style.setProperty('--BackgroundColor', '#15202b');
     document.documentElement.style.setProperty('--NavbarColor', '#333');
 }
 
