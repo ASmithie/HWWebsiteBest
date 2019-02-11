@@ -10,7 +10,7 @@
 	<script src="javaScript.js"></script>
     </head>
 
-    <body onload="NextImage()">
+    <body id="body" class="NoMode" onload="NextImage()">
 	<header>
 		<span class="btnsmallmenu" onclick="openMenu()">Menu</span>
 		<img src = "AtariLogo.png" class="centre" alt="Atari Logo">
@@ -22,6 +22,7 @@
   			<a href="contact.html">Contact Us</a>
   			<a href="about.html">About</a>
 			<a href="cart.html">Cart</a>
+			<Button onclick="toggleColorMode()">Dark-Light</button>
 		</div>
 
 		<div id="sideMenu" class="sidemenu">

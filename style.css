@@ -1,18 +1,25 @@
-body {
-    background-image: linear-gradient(#800000, #ff4d4d);
+:root{
+	--TextColor: white;
+	--BackgroundColor: black;
+	--NavBarColor: #333;
+}
+
+
+body{
+	background-color: var(--BackgroundColor);
 }
 
 
 h1 {
     text-align:center;
     font-family: 'Karla', impact;
-    color: white;
+    color: var(--TextColor);
     font-size:48px ;
 
 }
 
 h2 {
-	color:white;
+	color: var(--TextColor);
     text-align:center;
 	font-weight:bold;
     font-family: 'Karla', impact;
@@ -23,12 +30,12 @@ h4 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-    color:white;
+    color: var(--TextColor);
     text-align:center;
 	font-weight:bold;
     font-family: 'Karla', impact;
 	font-size:24px;
-	background-color: #333;
+	background-color: var(--BackgroundColor);
 	width: 400px;
 }
 
@@ -44,8 +51,8 @@ p {
 	border: 1px solid black;
 	text-align: center;
 	padding: 12px;
-	background-color: #333;
-	color: white;
+	background-color: var(--NavBarColor);
+	color: var(--TextColor);
 	width: 225px;
 	font-family: 'Karla';
 }
@@ -67,17 +74,17 @@ p {
 
     .btnsmallmenu {
         display: inline;
-        background-color: #333;
+        background-color: var(--NavBarColor);
         text-decoration: none;
         font-family: 'Karla', sans-serif;
         font-size: 24px;
-        color: #f2f2f2;
+        color: var(--TextColor);
         padding: 14px 16px;
 	cursor: pointer;
     }
 
     .sidemenu {
-	background-color: #333;
+		background-color: var(--NavBarColor);
         overflow-x: hidden;
         padding-top: 60px;
         transition: 0.5s;
@@ -93,7 +100,7 @@ p {
     .sidemenu a {
         font-size: 24px;
         font-family: 'Karla', sans-serif;
-        color: #818181;
+        color: var(--TextColor);
         display: block;
 	padding: 12px;
         text-decoration: none;
@@ -102,12 +109,12 @@ p {
 
     .sidemenu a:hover {
         background-color: #ddd;
-        color: #000000;
+        color: var(--TextColor);
     }
 
     .sidemenu .current {
         background-color: #BC2D2F;
-        color: #ffffff;
+        color: var(--TextColor);
     }
 
     .sidemenu .btnclose {
@@ -131,7 +138,7 @@ p {
     }
 
     .navbardefault {
-        background-color: #333;
+        background-color: var(--NavBarColor);
         overflow: hidden;
         text-align: center;
         height: 50px;
@@ -141,7 +148,7 @@ p {
 
     .navbardefault a {
         margin: auto;
-        color: #f2f2f2;
+        color: var(--TextColor);
         text-align: center;
         padding: 28px 16px;
         text-decoration: none;
@@ -151,18 +158,18 @@ p {
 
     .navbardefault a:hover {
         background-color: #ddd;
-        color: #000000;
+        color: var(--TextColor);
     }
 
     .navbardefault .current {
         background-color: #BC2D2F;
-        color: #ffffff;
+        color: var(--TextColor);
     }
 
 }
 
 .About {
-    color:white;
+    color: var(--TextColor);
     text-align:center;
     font-family:'Karla', sans-serif;
     font-size:24px;
@@ -207,7 +214,7 @@ p {
 }
 
 .caption {
-	color:red;
+	color: var(--TextColor);
 	font-size: 30px;
 	font-weight:bold;
 	font-family:'Karla', sans-serif;
@@ -230,12 +237,12 @@ p {
 }
 
 .price {
-    color: #808080;
+    color: var(--TextColor);
     font-size: 22px;
 }
 
 .product button {
-    color: #ffffff;
+    color: var(--TextColor);
     background-color: #000;
     text-align: center;
     cursor: pointer;
@@ -247,5 +254,5 @@ p {
 
 .product button:hover {
     background-color: #ddd;
-    color: #000000;
+    color: var(--TextColor);
 }
