@@ -230,7 +230,7 @@ p {
 }
 
 .product {
-    max-width: 50%;
+    max-width: 1080px;
     margin: auto;
     text-align: center;
     font-family: 'Karla';
