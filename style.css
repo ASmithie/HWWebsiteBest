@@ -223,15 +223,15 @@ p {
 }
 
 .product p {
-    max-width: 50%;
+    max-width: 1080px;
     margin: auto;
     text-align: center;
     font-family: 'Karla';
 }
 
 .price {
-    color: #808080;
-    font-size: 22px;
+    color: #DCDCDC;
+    font-size: 32px;
 }
 
 .product button {
