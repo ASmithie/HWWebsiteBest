@@ -1,12 +1,11 @@
 :root{
-	--TextColor: white;
-	--BackgroundColor: #15202b;
+	--TextColor: black;
+	--BackgroundImage: linear-gradient(#C60000, #FF5757);
 	--NavBarColor: #333;
 }
 
-
 body{
-	background-color: var(--BackgroundColor);
+	background-image: var(--BackgroundImage);
 }
 
 
@@ -35,7 +34,7 @@ h4 {
 	font-weight:bold;
     font-family: 'Karla', impact;
 	font-size:24px;
-	background-color: var(--BackgroundColor);
+	background-image: var(--BackgroundImage);
 	width: 400px;
 }
 
@@ -125,6 +124,15 @@ p {
         font-size: 30px;
         margin-left: 50px;
     }
+	
+    .sideColorMode {
+		display: block;
+		padding: 12px;
+		background-color: #333;
+		font-family: 'Karla';
+		color: white;
+		font-size: 24px;
+	}
 }
 
 
@@ -159,13 +167,20 @@ p {
 
     .navbardefault a:hover {
         background-color: #ddd;
-        color: var(--TextColor);
+        color: black;
     }
 
     .navbardefault .current {
         background-color: #BC2D2F;
         color: var(--TextColor);
     }
+	
+    .defaultColorMode {
+		background-color: #333;
+		font-family: 'Karla';
+		color: white;
+		font-size: 24px;
+	}
 
 }
 
