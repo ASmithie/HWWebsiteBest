@@ -19,10 +19,38 @@ h2 {
 	font-size:32px;
 }
 
+h4 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    color:white;
+    text-align:center;
+	font-weight:bold;
+    font-family: 'Karla', impact;
+	font-size:24px;
+	background-color: #333;
+	width: 400px;
+}
+
 p {
     text-align:center;
     font-family: 'Karla', impact;
 }
+
+.hourstable {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	text-align: center;
+	padding: 12px;
+	background-color: #333;
+	color: white;
+	width: 225px;
+	font-family: 'Karla';
+}
+
+
 
 .centre {
   display: block;
