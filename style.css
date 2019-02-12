@@ -124,7 +124,7 @@ p {
         font-size: 30px;
         margin-left: 50px;
     }
-	
+
     .sideColorMode {
 		display: block;
 		padding: 12px;
@@ -174,7 +174,7 @@ p {
         background-color: #BC2D2F;
         color: var(--TextColor);
     }
-	
+
     .defaultColorMode {
 		background-color: #333;
 		font-family: 'Karla';
@@ -230,7 +230,7 @@ p {
 }
 
 .caption {
-	color: var(--TextColor);
+	color: red;
 	font-size: 30px;
 	font-weight:bold;
 	font-family:'Karla', sans-serif;
